@@ -1,12 +1,23 @@
 ---
 title: "RR-Project-1"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
 ---
 
 
 # Reproducible Research --- Project 1
 
 ##  Analysis with NA ingnored
+
+- Setup figure diretory
+
+```{r setup}
+
+knitr::opts_chunk$set(fig.path="figures/")
+
+```
 
 - Load data
 
